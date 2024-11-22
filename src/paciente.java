@@ -1,6 +1,9 @@
 public class paciente extends user {
-    private String padecimiento;
-    private String salaAsignada;
+    private String padecimiento = "Sin asignar";
+    private String salaAsignada = "Sin asignar";
+
+    //Valores por default
+
 
 
     //Constructor
@@ -8,6 +11,7 @@ public class paciente extends user {
         super(dni, nombre);
     }
     //Getters and Setters
+
     public String getPadecimiento(){
         return padecimiento;
     } 

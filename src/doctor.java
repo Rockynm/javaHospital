@@ -1,6 +1,6 @@
 public class doctor extends user {
-    private String especialidad;
-    private int añosDeExperiencia;
+    private String especialidad = "Sin asignar";
+    private int añosDeExperiencia = 0;
 
     //Constructor
     public doctor(String dni, String nombre, String especialidad){

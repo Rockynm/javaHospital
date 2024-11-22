@@ -1,8 +1,8 @@
 public class enfermera extends user {
-    private String salaAsuCargo;
-    private int pacientesAtentidos;
-    private double puntuacionTotal;
-    private double puntuacionPromedio;
+    private String salaAsuCargo = "Sin asignar";
+    private int pacientesAtentidos = 0;
+    private double puntuacionTotal = 0;
+    private double puntuacionPromedio = 0;
 
     //Constructor
     public enfermera(String dni, String nombre){

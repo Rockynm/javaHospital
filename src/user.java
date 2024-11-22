@@ -1,8 +1,8 @@
 public class user {
-    private String dni;
-    private String nombre;
-    private String correo;
-    private String rol;
+    private String dni = "Sin asignar";
+    private String nombre = "Sin asignar";
+    private String correo = "Sin asignar";
+    private String rol = "Sin asignar";
 
     public user(String dni, String nombre){
         this.dni = dni;
@@ -30,6 +30,12 @@ public class user {
     public void setRol(String rol){
         this.rol = rol;
     }
+    public void setDni(String dni){
+        this.dni = dni;
+    }
+    public void setNombre(String nombre){
+        this.nombre = nombre;
+    } 
 
 
 }
